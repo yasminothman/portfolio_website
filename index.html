@@ -1,0 +1,76 @@
+<!--DOCTYPE HTML-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widtth, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/7ac8b333e9.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <header class="header">
+            <div class="navbar">
+                <div class="navbar_content">
+                    <a href="#" class="logo">yasmin.</a>
+                    <section class="nav_section">
+                    <nav class="nav">
+                        <ul class="list">
+                            <li class="nav_items">
+                                <a href="#" class="nav_link">about</a>
+                            </li>
+                            <li class="nav_items">
+                                <a href="#" class="nav_link">tech stack</a>
+                            </li>
+                            <li class="nav_items">
+                                <a href="#" class="nav_link">projects</a>
+                            </li>
+                            <li class="nav_items">
+                                <a href="#" class="nav_link">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="dark_mode">
+                        <i class="fa-regular fa-moon"></i>
+                    </div>
+                </section>
+                    <div class="hamburger hamburger--open">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <div class="homepage container">
+            <section class="greetings">
+                <h1 class="title">hi, im Yasmin<img class="wave-hand img" src="assets\wave-hand.png"></h1>
+                <h1 class="title">a full stack developer</h1>
+                <h2 class="subtitle">focusing on mobile apps <img src="assets/mobile-app.png" alt="mobile app icon" class="mobile-app"></h2>
+            </section>
+            <section class="links">
+                <a class="github-btn" href="https://github.com/yasminothman" target="_blank"><i class="fa-brands fa-github"></i></a>               
+                <a class="linkedin-btn" href="https://www.linkedin.com/in/yasmin-nabila-othman-7698b7308" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a class="resume-btn" href="assets\wave-hand.png" target="_blank" download><i class="fa-solid fa-file-arrow-down"></i></a>       
+            </section>
+        </div>
+        <div class="about container">
+            <input type="radio" class="about-tabs" name="tabs" id="work" checked>
+            <label for="work">Work Experience</label>
+            <input type="radio" class="about-tabs" name="tabs" id="education" >
+            <label for="education">Education</label>
+
+            <div class="about-content" id="work-content">
+                <h2>tab 1</h2>
+            </div>
+            <div class="about-content" id="education-content">
+                    <h2>tab 2</h2>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
