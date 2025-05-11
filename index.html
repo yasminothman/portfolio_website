@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <script src="https://kit.fontawesome.com/7ac8b333e9.js" crossorigin="anonymous"></script>
 </head>
     <body>
@@ -60,15 +61,73 @@
         </div>
         <div class="about container">
             <input type="radio" class="about-tabs" name="tabs" id="work" checked>
-            <label for="work">Work Experience</label>
             <input type="radio" class="about-tabs" name="tabs" id="education" >
-            <label for="education">Education</label>
+            <div class="tab-label">
+                <label for="work">Work Experience</label>
+                <label for="education">Education</label>
+            </div>
 
             <div class="about-content" id="work-content">
-                <h2>tab 1</h2>
+                    <div class="timeline-wrapper">
+                        <div class="timeline-row">
+                            <div class="timeline-col">
+                                <div class="timeline-box">
+                                    <div class="content-box">
+                                        <div class="date">
+                                            <i class='bx bx-calendar'></i>
+                                            Sept 2024 - Feb 2025
+                                        </div>
+                                        <h3>Software Engineer Intern</h3>
+                                        <p>N.S.E. Lorry Transport Sdn. Bhd.</p>
+                                        <p>Assisted in developing new features and maintaining mobile applications. Also responsible in releasing new versions on Google Play Store and App Store. Also responsible in IT Support</p>
+                                    </div>
+
+                                     <div class="content-box">
+                                        <div class="date">
+                                            <i class='bx bx-calendar'></i>
+                                            Feb 2025 - Current
+                                        </div>
+                                        <h3>Junior Full Stack Engineer</h3>
+                                        <p>N.S.E. Lorry Transport Sdn. Bhd.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum iste consectetur similique maiores tempora quidem laborum vero ullam reprehenderit nisi dolore suscipit harum nihil, ratione et in, ab sint autem?</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+            
             </div>
             <div class="about-content" id="education-content">
-                    <h2>tab 2</h2>
+                     <div class="timeline-wrapper">
+                        <div class="timeline-row">
+                            <div class="timeline-col">
+                                <div class="timeline-box">
+                                    <div class="content-box">
+                                        <div class="date">
+                                            <i class='bx bx-calendar'></i>
+                                            Oct 2020 - Aug 2021
+                                        </div>
+                                        <h3>Foundation in Engineering</h3>
+                                        <!--Location-->
+                                        <!--CGPA-->
+                                        <p>Pusat Asasi UiTM Dengkil</p>
+                                        <p>3.49</p>
+                                    </div>
+                                     <div class="content-box">
+                                        <div class="date">
+                                            <i class='bx bx-calendar'></i>
+                                            Oct 2021  - Feb 2025
+                                        </div>
+                                        <h3>Bachelor in Computer Science (Hons.) Mobile Computing</h3>
+                                        <!--Location-->
+                                        <!--CGPA-->
+                                        <p>UiTM Kuala Terengganu, Terengganu</p>
+                                        <p>3.90</p>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
         <script src="script.js"></script>
