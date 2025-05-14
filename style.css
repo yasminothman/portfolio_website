@@ -422,10 +422,12 @@ body{
     margin-bottom: 10px;
 }
 
-.project-buttons {
+.project-button {
   display: flex;
-  gap: 10px;
-  margin-top: 10px;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: center;
+  min-height: 50px;
 }
 
 .project-item:hover {
@@ -449,6 +451,10 @@ body{
 .view-project {
   background-color: #02355F;
   color: white;
+}
+
+.view-github {
+  margin-left: auto;
 }
 
 .view-project:hover,
